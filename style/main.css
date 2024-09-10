@@ -1,0 +1,182 @@
+:root {
+    --cor-principal: #0ACF83;
+    --cor-secundária: #001E36;
+    --cor-terciária: #22D4FD;
+    --cor-branca: #FFFFFF;
+
+    --tipo-fonte-titulo: "Koulen", sans-serif;
+    --tipo-fonte-destaque: "Lalezar", system-ui;
+    --tipo-fonte-destaque-alternativo: "Krona One", sans-serif;
+    --tipo-fonte-paragrafo: "Inter", sans-serif;
+
+    --fonte-tamanho-titulo: 4.375rem;
+    --fonte-tamanho-destaque: 1.813rem;
+    --fonte-tamanho-paragrafo: 2rem;
+    --fonte-tamanho-texto: 1rem;
+
+    --botao-texto: "Krub", sans-serif;
+    --botao-texto-tamanho: 1.25rem;
+    --botao-texto-superior: 3rem;
+
+    --borda-cor-branco-pequeno: 0.166rem solid #FFFFFF;
+    --borda-cor-branco-grande: 0.625rem solid #FFFFFF;
+    --borda-cor-Azul-pequeno: 0.166rem solid #001E36;
+    --borda-cor-Azul-grande: 0.625rem solid #001E36;
+
+    --barra-vertical: 4.375rem;
+    --icone-redondo-radius: 31.25rem;
+    --sombra-icones: 0px 0.25rem 0.25rem 0px rgba(0, 0, 0, 0.25);
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background: var(--cor-principal);
+}
+
+a,
+ul,
+li {
+    text-decoration: none;
+}
+
+.navegacao {
+    background-color: #001E36;
+    width: 100%;
+    height: 4.5rem;
+    position: absolute;
+}
+
+.navegacao__itens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: auto;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: auto;
+}
+
+.navegacao__itens__nome {
+    color: var(--cor-branca);
+    font-family: var(--tipo-fonte-destaque);
+    font-size: var(--fonte-tamanho-destaque);
+    padding: 3px;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: var(--cor-terciária);
+}
+
+.navegacao__itens__nome:hover {
+    color: var(--cor-secundária);
+    border: 5px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.navegacao__itens__organização {
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    align-self: auto;
+}
+
+.itens {
+    color: var(--cor-secundária);
+    font-family: var(--tipo-fonte-destaque-alternativo);
+    font-size: var(--fonte-tamanho-destaque);
+    background-color: var(--cor-terciária);
+    border: 1px solid var(--cor-branca);
+    border-radius: 100%;
+    padding: 10px 8px 10px 8px;
+    margin-left: 50px;
+}
+
+.itens:hover {
+    color: var(--cor-branca);
+
+    border: 3px solid var(--cor-branca);
+}
+
+img.itens {
+    color: var(--cor-secundária);
+    font-family: var(--tipo-fonte-destaque-alternativo);
+    font-size: var(--fonte-tamanho-destaque);
+    background-color: var(--cor-terciária);
+    border: 1px solid var(--cor-branca);
+    border-radius: 100%;
+    margin-left: 60px;
+}
+
+img.itens:hover {
+    color: var(--cor-secundária);
+    font-family: var(--tipo-fonte-destaque-alternativo);
+    font-size: var(--fonte-tamanho-destaque);
+    border: 1px solid var(--cor-branca);
+    border-radius: 100%;
+    background-color: var(--cor-branca);
+}
+
+.itensBranco {
+    color: var(--cor-branca);
+    font-family: var(--tipo-fonte-destaque-alternativo);
+    font-size: var(--fonte-tamanho-destaque);
+    background-color: var(--cor-branca);
+    border: 1px solid var(--cor-branca);
+    border-radius: 100%;
+    padding: 10px 8px 10px 8px;
+    gap: 100px;
+}
+
+.itensBranco:hover {
+    border: 3px solid var(--cor-terciária);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.barra__vertical__inferior {
+    background-color: var(--cor-secundária);
+    width: 100%;
+    height: 4.5rem;
+    bottom: 0rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: auto;
+}
+
+.navegacao__itens__nome__frame {
+    color: var(--cor-secundária);
+    font-family: var(--tipo-fonte-destaque-alternativo);
+    font-size: var(--fonte-tamanho-texto);
+    font-weight: 800;
+    padding: 7.5px;
+    border: 2px solid #FFFFFF;
+    border-radius: 7.5px;
+    background-color: var(--cor-terciária);
+    margin: 0px 25px 0px 25px;
+}
+
+.navegacao__itens__nome__frame:hover,
+.navegacao__itens__nome__frame:focus {
+    color: var(--cor-branca);
+    border: 5px solid #FFFFFF;
+}
+
+iframe {
+    height: 550px;
+    width: 100%;
+    display: flex;
+}

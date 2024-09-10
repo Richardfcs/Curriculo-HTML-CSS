@@ -1,0 +1,221 @@
+:root {
+    --cor-principal: #0ACF83;
+    --cor-secundária: #001E36;
+    --cor-terciária: #22D4FD;
+    --cor-branca: #FFFFFF;
+
+    --tipo-fonte-titulo: "Koulen", sans-serif;
+    --tipo-fonte-destaque: "Lalezar", system-ui;
+    --tipo-fonte-destaque-alternativo: "Krona One", sans-serif;
+    --tipo-fonte-paragrafo: "Inter";
+
+    --fonte-tamanho-titulo: 4.375rem;
+    --fonte-tamanho-destaque: 1.813rem;
+    --fonte-tamanho-paragrafo: 2rem;
+    --fonte-tamanho-texto: 1rem;
+
+    --botao-texto: "Krub", sans-serif;
+    --botao-texto-tamanho: 1.25rem;
+    --botao-texto-superior: 3rem;
+
+    --borda-cor-branco-pequeno: 0.166rem solid #FFFFFF;
+    --borda-cor-branco-grande: 0.625rem solid #FFFFFF;
+    --borda-cor-Azul-pequeno: 0.166rem solid #001E36;
+    --borda-cor-Azul-grande: 0.625rem solid #001E36;
+
+    --barra-vertical: 4.375rem;
+    --icone-redondo-radius: 31.25rem;
+    --sombra-icones: 0px 0.25rem 0.25rem 0px rgba(0, 0, 0, 0.25);
+}
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin-top: 6rem;
+    justify-content: center;
+    justify-content: center;
+}
+
+.espaco___total {
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.escola__img,
+.faculdade__img {
+    height: 10rem;
+    width: 18rem;
+}
+
+.centralizar__itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-wrap: wrap;
+}
+
+h1 {
+    color: var(--cor-secundária);
+    font-family: var(--tipo-fonte-paragrafo);
+    text-align: center;
+    text-wrap: wrap;
+    font-size: 3.563rem;
+    font-weight: 900;
+    font-style: italic;
+}
+
+h2 {
+    color: var(--cor-secundária);
+    font-family: var(--tipo-fonte-paragrafo);
+    text-wrap: wrap;
+    font-size: 1.563rem;
+    font-weight: 900;
+    font-style: italic;
+}
+
+p {
+    color: var(--cor-secundária);
+    font-family: var(--tipo-fonte-paragrafo);
+    font-size: 1.25rem;
+    font-weight: 900;
+    font-style: italic;
+    text-wrap: wrap;
+    line-height: normal;
+}
+
+li {
+    color: var(--cor-secundária);
+    font-family: var(--tipo-fonte-paragrafo);
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-style: italic;
+    text-wrap: wrap;
+    line-height: normal;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 80px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.perfil__img {
+    width: 30rem;
+    height: 25rem;
+    border: 0.625rem solid var(--cor-secundária);
+}
+
+.curso__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.cursos__organizacao {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.justica__img {
+    width: 25rem;
+    height: 10rem;
+}
+
+.ennet__img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.habilidades__conteiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.habilidades__principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.habilidades__center {
+    display: flex;
+    justify-content: center;
+}
+
+.fix__img {
+    height: 25rem;
+    width: 15rem;
+}
+
+.projetos__principal {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 10px;
+}
+
+.projetos__conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetos__img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.texto__menor {
+    font-weight: 600;
+}
+
+.contatos__img {
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.contatos__organizacao {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1rem;
+    /* display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    justify-items: center;
+    gap: 20px; */
+}
+
+.botao__site {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Kreon;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 50px;
+    background: #22D4FD;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
